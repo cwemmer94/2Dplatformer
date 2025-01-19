@@ -16,7 +16,13 @@ def main():
         #Render code
         begin_drawing()
         clear_background(SKYBLUE)
+
+        #Ground
         draw_rectangle(0,400,800,200,GREEN)
+
+        #Platform
+        draw_rectangle(400,300,300,25,BLACK)
+
         player.render()
         draw_fps(10,10)
         end_drawing()
