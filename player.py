@@ -19,12 +19,10 @@ class Player:
             self.vely = 0
             self.ypos = 400 - 50
 
-        #gravity on platform
+        #platform movement
         if self.ypos == 300 and self.xpos == 400:
-            pass
-        else:
+            print("True")
             self.vely = 0
-            self.ypos == 300 and self.xpos == 400
 
         #movement
         if is_key_down(KEY_LEFT):
